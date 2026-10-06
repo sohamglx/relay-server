@@ -19,6 +19,6 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ubuntu
           key: ${{ secrets.SSH_KEY }}
-          script: cd /home/ubuntu/relay-server
+          script: cd relay-server
             git pull
             docker compose up -d --build
