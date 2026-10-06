@@ -6,7 +6,7 @@ const port = process.env.PORT ?? 3000
 
 app.get("/", (req, res) => {
     return res.json({
-        msg: "hello from server"
+        msg: "hello from server v1"
     })
 })
 
